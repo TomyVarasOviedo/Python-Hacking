@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import os
-#import subprocess
+import subprocess
 
 #--GLOSARIO Y REFERENCIA--#
 ''' 
@@ -11,9 +11,9 @@ import os
 
 '''
 #--GLOSARIO Y REFERENCIA--#
-# file = open(os.devnull, 'w')
-# proceso = subprocess.call(['ping', '1.1.1.1'], stdout=file, stderr=subprocess.STDOUT)
-# if proceso == 0:
-# 	print("Se ejecuto correctamente")
-# else:
-# 	print("Algo salio mal maestro")
+file = open(os.devnull, 'w')
+proceso = subprocess.call(['ping', '1.1.1.1'], stdout=file, stderr=subprocess.STDOUT)
+if proceso == 0:
+	print("Se ejecuto correctamente")
+else:
+	print("Algo salio mal maestro")

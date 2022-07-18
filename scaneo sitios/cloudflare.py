@@ -2,7 +2,7 @@ import requests
 
 def main():
     word = input()
-    url = requests.get('https://www.{}.com/es-es/'.format(word))
+    url = requests.get('https://www.{}'.format(word))
     cabeceras = dict(url.headers)
     verificacion = False
     for c in cabeceras:

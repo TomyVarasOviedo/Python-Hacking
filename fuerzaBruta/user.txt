@@ -1,0 +1,6 @@
+ADMIN
+12345
+admin
+pass
+juan
+admin123
